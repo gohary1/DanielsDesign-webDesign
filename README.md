@@ -1,4 +1,4 @@
-
+# Website Designs
 
 Welcome to the Website Design repository! This project showcases a simple yet visually appealing static website, highlighting design skills with animations and hover effects.
 
