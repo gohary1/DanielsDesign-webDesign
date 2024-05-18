@@ -1,0 +1,322 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.64),rgba(0, 0, 0, 0.334)),url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fs-7{
+    font-size: 4rem;
+}
+header h4::after{
+    content:"" ;
+   animation-name: h2-animi1;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+/* nav */
+.navbar-toggler-icon{
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.w-18{
+    width: 18%;
+}
+.w-65{
+    width: 65%;
+}
+.w-35{
+    width: 35%;
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.h-40{
+    height: 40%;
+}
+.w-4px{
+    width: 4px;
+}
+.main-color{
+    background-color: #0078ff;
+}
+@keyframes h2-animi1{
+    0%{content: "|";}
+    3%{content: "D|";}
+    4%{content: "DE|";}
+    5%{content: "DEV|";}
+    7%{content: "DEVE|";}
+    9%{content: "DEVEL|";}
+    11%{content: "DEVELO|";}
+    14%{content: "DEVELOP|";}
+    16%{content: "DEVELOPE|";}
+    18%{content: "DEVELOPER|";}
+    20%{content: "DEVELOPE|";}
+    23%{content: "DEVELOP|";}
+    25%{content: "DEVELO|";}
+    27%{content: "DEVEL|";}
+    29%{content: "DEVE|";}
+    30%{content: "DEV|";}
+    33%{content: "DE|";}
+    35%{content: "D|";}
+    40%{content: "|";}
+    43%{content: "L|";}
+    45%{content: "La|";}
+    47%{content: "Lar|";}
+    49%{content: "Larr|";}
+    50%{content: "Larry|";}
+    52%{content: "Larry D|";}
+    54%{content: "Larry Da|";}
+    57%{content: "Larry Dan|";}
+    59%{content: "Larry Dani|";}
+    61%{content: "Larry Danie|";}
+    64%{content: "Larry Daniel|";}
+    67%{content: "Larry Daniels|";}
+    69%{content: "Larry Daniel|";}
+    70%{content: "Larry Danie|";}
+    72%{content: "Larry Dani|";}
+    74%{content: "Larry Dan|";}
+    76%{content: "Larry Da|";}
+    78%{content: "Larry D|";}
+    80%{content: "Larry |";}
+    82%{content: "Larr|";}
+    83%{content: "Lar|";}
+    84%{content: "La|";}
+    85%{content: "L|";}
+    86%{content: "De|";}
+    87%{content: "Des|";}
+    88%{content: "Desi|";}
+    89%{content: "Desig|";}
+    90%{content: "Design|";}
+    91%{content: "Designe|";}
+    92%{content: "Designer|";}
+    93%{content: "Designe|";}
+    94%{content: "Design|";}
+    95%{content: "Desig|";}
+    96%{content: "Desi|";}
+    97%{content: "Des|";}
+    98%{content: "De|";}
+    99%{content: "D|";}
+    100%{content: "|";}
+    }
+
+.navbar-nav .nav-link{
+     position: relative;
+}
+.navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    bottom: 0;
+    right: 100;
+    left: 7;
+    transition: all .4s ease !important;
+}  
+.navbar-nav .nav-link:hover:after{
+    transition: all .4s ease !important;
+    right: 9;
+} 
+/* about */
+.bg-whitee{
+    background-color: #f5f5f5;
+}
+.my-6{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.about-cont{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about-skills .bigger{
+    height: .7rem;
+    background-color: rgb(154, 154, 255);
+
+}
+.about-skills .smaller{
+    height: .7rem;
+    background-color: rgb(62, 62, 255);
+}
+.h-3px{
+    height: 3px;
+    background-color: rgb(62, 62, 255);
+}
+
+/* serv */
+.services .item-s{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.services-line{
+    width: 3rem;
+    height: 4px;
+}
+.services-icon{
+    padding: 2.2rem;
+    border: .7rem solid #0078ff;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+.services-icon:hover{
+    background-color: #0078ff;
+    border: .7rem solid #a0c8f5;
+    color: white;
+}
+/* rest */
+.rest{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 34, 255, 0.567),rgba(0, 34, 255, 0.578)),url(../img/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.rest .rest-icon{
+    padding: 1.4rem;
+    border: .7rem solid #a0c8f5;
+}
+/* port */
+.fs-8{
+    font-size: .8rem;
+}
+.num2 button{
+    padding: .1rem .8rem;
+    background-color: transparent;
+    color: #0078ff;
+    border: 3px solid #0078ff;
+}
+.port-item img{
+    transition: all .4s ease-in-out;
+}
+.port-item img:hover{
+    transform: scale(1.3);
+}
+/* rest2 */
+.rest2{
+    height: 100vh;
+    background-image: linear-gradient(rgba(46, 73, 245, 0.567),rgba(0, 34, 255, 0.578)),url(../img/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.carousel-indicators{
+    bottom:20%;
+}
+.carousel-indicators button{
+    width: .8rem !important;
+    height: .8rem !important;
+}
+/* blog */
+.blog-item1{
+    background-color: #0078ff;
+    color: white;
+    padding: .3rem 1rem;
+    border-radius: 4px;
+    font-size: .9rem;
+    bottom: 93%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.w-12{
+    width: 12%;
+}
+.hr1{
+    border-top: 1px solid rgb(174, 174, 174);
+}
+.blog-item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.px-24{
+    padding: 0 .9rem;
+}
+/* form */
+.form-main{
+    height: 100vh;
+    background-image: linear-gradient(rgba(46, 73, 245, 0.567),rgba(0, 34, 255, 0.578)),url(../img/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px 18px 16px -3px rgba(0,0,0,0.1);
+}
+.h-30{
+    height: 30%;
+}
+.btn-form{
+    background-color: #0078ff !important;
+    border: 5px solid transparent;
+}
+.btn-form:hover{
+    border: 5px solid #a0c8f5;
+}
+.form-icons1 svg{
+    padding: .8rem .8rem;
+    border: 4px solid #0078ff;
+    transition: all .3s;
+}
+.form-icons1 svg:hover{
+    background-color: #0078ff;
+    border: 4px solid #a0c8f5;
+    color: white;
+}
+/* footer */
+
+.footer{
+    background-color: #0062d3;
+}
+
+@media screen and (max-width:980px){
+    .navbar-collapse{
+        background-color:#040404 ;
+    }
+    .about-skills{
+        margin-top: 1rem;
+    }
+    .seconda{
+        margin-top: 1rem;
+    }
+    .blog .col-lg-4{
+        margin: 1rem 0;
+    }
+    .form-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-nav .nav-link::after{
+        content: "";
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        height: 2px;
+        bottom: 0;
+        right: 100;
+        left: 0;
+        transition: all .4s ease !important;
+    } 
+    .navbar-nav .nav-link:hover:after{
+        transition: all .4s ease !important;
+        right: 100;
+    } 
+    header h2{
+        font-size: 3rem !important;
+    }
+}
+@media screen and (max-width:770px){
+    .form-main{
+        height: auto;
+    }
+    .form{
+        margin-bottom: 7rem !important;
+    }
+    header h2{
+        font-size: 2rem !important;
+    }
+}
